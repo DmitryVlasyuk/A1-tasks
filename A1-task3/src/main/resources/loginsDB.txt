@@ -1,0 +1,24 @@
+CREATE TABLE logins(
+   id  int not NULL auto_increment PRIMARY KEY
+   ,Application    VARCHAR(4) NOT NULL
+  ,App_Account_Name VARCHAR(13) NOT NULL
+  ,Is_Active       VARCHAR(6) NOT NULL
+  ,Job_Title       VARCHAR(27) NOT NULL
+  ,Department     VARCHAR(27) NOT NULL
+);
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','BORODZUTPNI','True','Комплектовщик товаров','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','GUROPIMCHIN','True','Комплектовщик товаров','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','GRUZD','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','YUFIMUNNO','True','Заведующий складом','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','ZHULUNGOVPNI','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','NONOPH','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','NONDYBO','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','NOROBCHUN','False','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','NURLOVICH_O','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','MONNO','True','Комплектовщик товаров','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','MULNINOV','True','Комплектовщик товаров','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','MOTORIN','False','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','POVLIPHIN','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','POVICH','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','PVIDOV','True','Техник по складскому учету','Группа складского хозяйства');
+INSERT INTO logins(Application,App_Account_Name,Is_Active,Job_Title,Department) VALUES ('SAP','PHOBOVICH','False','Заведующий складом','Группа складского хозяйства');
